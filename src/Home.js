@@ -24,7 +24,7 @@ export default function Home() {
         <Card sx={{ width: '100%' }}>
           <CardContent sx={{ textAlign: 'center' }}>
             <Typography variant="h3" gutterBottom>
-              Welcome to my website
+              Welcome!
             </Typography>
             <Box mt={4} display="flex" justifyContent="center" gap={2}>
               <Button variant="contained" onClick={() => nav('/blog')}>
