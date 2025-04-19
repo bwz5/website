@@ -7,6 +7,9 @@ rm -r docs
 npm run build 
 mv build docs 
 
+touch docs/CNAME
+echo "benjaminzou.com" > docs/CNAME
+
 git add .
 git commit -m "update"
 git push 
