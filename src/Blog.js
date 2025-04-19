@@ -22,24 +22,14 @@ export default function Blog() {
         <Card sx={{ width: '100%' }}>
           <CardContent sx={{ textAlign: 'center' }}>
             <Typography variant="h3" gutterBottom>
-              Post 1
+              First Post
             </Typography>
             <Typography component="p" gutterBottom>
-              writing about post 1 
+              one day something will be written here
             </Typography>
           </CardContent>
         </Card>
 
-        <Card sx={{ width: '100%' }}>
-          <CardContent sx={{ textAlign: 'center' }}>
-            <Typography variant="h3" gutterBottom>
-                Post 2
-            </Typography>
-            <Typography component="p" gutterBottom>
-              writing about post 2
-            </Typography>
-          </CardContent>
-        </Card>
       </Stack>
     </Container>
   );

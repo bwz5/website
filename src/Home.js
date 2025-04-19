@@ -43,7 +43,7 @@ export default function Home() {
               About Me
             </Typography>
             <Typography component="p">
-              I am a current sophomore at Cornell University studying Computer Science.
+              I am a current sophomore at Cornell University studying Computer Science. I'm going to be working at AWS this summer in Seattle!
             </Typography>
           </CardContent>
         </Card>
