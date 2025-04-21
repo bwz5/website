@@ -16,21 +16,21 @@ export default function Projects() {
         <ImgMediaCard 
           image_path={"/images/rocket.webp"}
           name="Ground Software"
-          description={"The software ran on the ground for Cornell Rocketry."}
+          description={"The software ran on the ground-side for Cornell Rocketry."}
           github_link={"https://github.com/cornellrocketryteam/Ground-Software"}
         />      
 
         <ImgMediaCard 
           image_path={"/images/Server.jpg"}
           name="HTTPS Server"
-          description={"An Load-Balancing HTTP server written entirely in C. Uses the TCP/IP protocol via socket endpoints, layering on HTTP request parsing and response management in the servers. Uses the Smooth Weighted Round Robin load balancing algorithm, and OpenSSL for TLS/SSL encryption."}
+          description={"A Load-Balancing HTTP server written entirely in C. Uses the TCP/IP protocol via socket endpoints, layering on HTTP request parsing and response management in the servers. Servers are chosen with the Smooth Weighted Round Robin load balancing algorithm, and OpenSSL was chosen for TLS/SSL encryption."}
           github_link={"https://github.com/bwz5/Load-Balancing-HTTPS-Server-in-C"}
         />
 
         <ImgMediaCard 
           image_path={"/images/Game.png"}
           name="Gameboy Simulator"
-          description={"A GameBoy-style two dimensional game, with accompanying 6 button controller. The controller face was designed in SolidWorks then 3D printed, and it utilizes a RaspberryPi to carry out button commands."}
+          description={"A GameBoy-style two dimensional game, with an accompanying 6 button controller. The controller face was designed in SolidWorks then 3D printed, and it utilizes a RaspberryPi to carry out button commands."}
           github_link={"https://github.com/bwz5/2D-Virtual-Game-with-RaspberryPi-Controller"}
         />
 
