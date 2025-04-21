@@ -5,19 +5,23 @@ const theme = createTheme({
   palette: {
     mode: 'light',           
     primary: {
-      main:  '#0b4015',      // use MUI color helpers or your own hex
+      main:  '#CA3E47',      // use MUI color helpers or your own hex
       light: '#c1e0c7',
       dark: '#327840',
-      contrastText: '#fff',
+    },
+    text: {
+      primary: '#ffffff',   // all “primary” text becomes white
+      secondary: '#ffffff', 
     },
     background: {
-      default: '#fafafa',    // page background
-      paper: '#fff',         // surface (e.g. Cards)
+      default: '#525252',    // page background
+      paper: '#414141',         // surface (e.g. Cards)
     },
   },
   typography: {
     // you can also tweak fonts and sizes here
-    fontFamily: '"Arial"'
+    fontFamily: '"Press Start 2P", monospace',
+    default: '#FFFFFF'
   },
   shape: {
     borderRadius: 8,         // global border radius
